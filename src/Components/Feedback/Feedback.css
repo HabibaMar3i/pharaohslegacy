@@ -1,0 +1,38 @@
+.btn-feedback {
+    color: #E5CC61 !important; 
+    background-color: #302E2F !important; 
+    border-color: #302E2F !important;
+}
+
+.btn-feedback:hover {
+    color: #302E2F !important; 
+    background-color: #E5CC61 !important; 
+    border-color: #E5CC61 !important; 
+
+}
+.feedback-container {
+    margin-top: 5rem; /* Adjust this value as needed to create space from the navbar */
+}
+
+.feedback-image {
+    width: 100%;
+    border-radius: 0.5rem 0 0 0.5rem;
+    object-fit: cover;
+	height: 800px;
+}
+
+.feedback-form-container {
+    display: flex;
+    align-items: stretch;
+}
+
+.card {
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}

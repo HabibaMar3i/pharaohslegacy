@@ -1,0 +1,60 @@
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+
+.card-registration .select-arrow {
+    top: 13px;
+}
+
+.card-registration {
+    /*
+    * Created with https://www.css-gradient.com
+    * Gradient link: https://www.css-gradient.com/?c1=ad9b41&c2=cccba0&gt=r&gd=dcr
+    */
+    background: #AD9B41;
+    background: radial-gradient(at right center, hsl(54, 100%, 94%), #a7913b);
+    color: #302E2F !important;
+}
+
+.btn-submit {
+    color: #E5CC61 !important; 
+    background-color: #302E2F !important; 
+    border: 1px solid #302E2F !important;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-submit:hover {
+    color: #302E2F !important; 
+    background-color: #E5CC61 !important; 
+    border: 1px solid #E5CC61 !important; 
+}
+
+.btn-outline-dark {
+    color: #302E2F !important; 
+    background-color: transparent !important; 
+    border: 1px solid #302E2F !important;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline-dark:hover {
+    color: #E5CC61 !important; 
+    background-color: #302E2F !important; 
+    border: 1px solid #302E2F !important; 
+}
+
+.login-link {
+    text-decoration: none;
+    color: black;
+}
+
+.login-link:hover {
+    text-decoration: none;
+    color: #E5CC61 !important; 
+}

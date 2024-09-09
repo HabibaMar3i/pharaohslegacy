@@ -1,0 +1,38 @@
+.plan-meeting-container {
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.plan-meeting-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.form-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.error-text {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.card-content {
+    padding: 20px;
+}

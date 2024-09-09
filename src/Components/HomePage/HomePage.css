@@ -1,0 +1,30 @@
+.pharaoh-homepage {
+    color: #343a40;
+    font-family: 'Arial', sans-serif;
+}
+
+.loader-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-card {
+    padding: 20px;
+    background-color: #fffbe6;
+    margin-bottom: 20px;
+}
+
+.testimonial-text {
+    font-size: 1rem;
+    color: #343a40;
+}
+
+.testimonial-author {
+    font-size: 0.9rem;
+    color: #b8860b;
+    font-style: italic;
+    margin-top: 10px;
+}
+

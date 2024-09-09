@@ -1,0 +1,57 @@
+.product-details-container {
+    max-width: 1200px;
+    margin-top: 150px !important;
+    margin-bottom: 100px !important;
+}
+
+.product-details-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-category {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #555;
+    margin-top: 1rem;
+}
+
+.product-details-price {
+    font-size: 1.5rem;
+    color: #F9BA22 !important;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.product-details-description {
+    font-size: 1rem;
+    color: #302E2F;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.product-details-rating {
+    font-size: 1.25rem;
+    color: #555;
+    margin-top: 1rem;
+}
+
+.rating-color {
+    color: #f39c12;
+}
+
+.btn-pharaohs-legacy {
+    background-color: #a2801b;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-pharaohs-legacy:hover {
+    background-color: #916e17;
+}
+

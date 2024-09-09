@@ -1,0 +1,114 @@
+.meeting-container {
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-family: 'Arial, sans-serif';
+    height: 100vh; /* Ensure the container takes the full viewport height */
+}
+
+.background-image {
+    background-image: url('../../Assets/meetingdetails.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    filter: brightness(0.5);
+}
+
+
+.meeting-card-overlay {
+    position: absolute;
+    width: 80%;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    align-items: center !important;
+}
+
+.heading {
+    text-align: center;
+    color: #c04000;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.error-message {
+    color: #ff0000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.loading {
+    text-align: center;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.meeting-card {
+    color: #333;
+}
+
+.meeting-header {
+    margin-bottom: 20px;
+}
+
+.confirmation {
+    color: green;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.appointment-title {
+    font-size: 1.3em;
+    margin: 0;
+    color: #d4af37;
+}
+
+.organizer-info {
+    display: flex;
+    align-items: center !important;
+    margin-top: 10px;
+}
+
+.organizer-avatar {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.organizer-name {
+    font-size: 1em;
+    align-items: center !important;
+    text-align: center !important;
+}
+
+.meeting-details {
+    margin-top: 20px;
+}
+
+.location, .date-time {
+    font-size: 1em;
+    color: #555;
+    margin: 5px 0;
+}
+
+.reschedule-btn {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px;
+    width: 90%;
+    text-align: center;
+    background-color: #433024;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.reschedule-btn:hover {
+    background-color: #241913d0;
+}

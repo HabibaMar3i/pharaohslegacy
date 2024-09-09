@@ -1,0 +1,11 @@
+.btn-homepage{
+    color: #E5CC61 !important; 
+    background-color: #302E2F !important; 
+    border-color: #302E2F !important;
+}
+.btn-login:hover {
+    color: #302E2F !important; 
+    background-color: #E5CC61 !important; 
+    border-color: #E5CC61 !important; 
+
+}

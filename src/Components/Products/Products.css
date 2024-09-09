@@ -1,0 +1,109 @@
+.product-ontainer{
+    margin-top: 150px;
+}
+.product-card{
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s;
+    border-radius: 10px;
+    background-color: #302E2F !important;
+    padding-bottom: 10px;
+    border: none;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 250px; /* Adjusted height for better display */
+    object-fit: cover;
+}
+
+.product-img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 500px !important;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    margin: 0;
+    color: #F9BA22 !important;
+}
+
+.product-price {
+    font-size: 1rem;
+    color: #F9BA22 !important;
+}
+
+.rating-overlay {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #FFD700;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+}
+
+.rating-color {
+    margin-right: 5px;
+    color: #F9BA22;
+}
+
+.card-link{
+    text-decoration: none;
+}
+
+.cart-icon-overlay {
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.cart-icon-overlay .btn-logout {
+    background: none;
+    border: none;
+    color: #FFFFFF;
+}
+
+.add-cart-icon {
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+.add-cart-icon:hover {
+    color: #F9BA22;
+}
+
+.btn-logout {
+    background-color: #302E2F;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+}
+
+.btn-logout:hover {
+    background-color: #F9BA22;
+    color: #302E2F;
+}

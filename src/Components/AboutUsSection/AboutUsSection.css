@@ -1,0 +1,41 @@
+.about-us-section {
+    position: relative;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+.about-us-overlay {
+    position: relative;
+    background-image: url('../../Assets/footer\ \(3\).jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+}
+
+.about-us-section-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.767); /* Overlay color */
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about-us-section-text {
+    flex: 1;
+    padding: 20px;
+    color: #ebdbc4; /* Light sand color */
+}
+
+.about-us-section-text p {
+    margin-bottom: 20px;
+}
+
+.about-us-section-image {
+    flex: 1;
+    max-width: 100%;
+    border-radius: 10px;
+    margin-left: 20px;
+}

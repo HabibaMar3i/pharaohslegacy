@@ -1,0 +1,51 @@
+.info-widgets-container {
+    border-radius: 10px;
+    background-color: #F7F7F6 !important;
+}
+
+.clock-card,
+.exchange-rate-card,
+.weather-card {
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.city-weather-card {
+    border-radius: 10px;
+}
+
+.clock-time {
+    font-weight: bold;
+    color: #302E2F;
+}
+
+.clock-date {
+    color: #302E2F;
+}
+
+.exchange-rate-title,
+.weather-title {
+    font-weight: bold;
+    color: #302E2F;
+}
+
+.exchange-rate-input {
+    color: #302E2F;
+}
+
+.exchange-rate-result {
+    margin-top: 20px;
+}
+
+.weather-title {
+    margin-bottom: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}

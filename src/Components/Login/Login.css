@@ -1,0 +1,52 @@
+.gradient-custom-2 {
+  /*
+  * Created with https://www.css-gradient.com
+  * Gradient link: https://www.css-gradient.com/?c1=5d3f23&c2=fee501&gt=l&gd=dtl
+  */
+  background: #5D3F23;
+  background: linear-gradient(135deg, #5D3F23, #FEE501);
+}
+
+@media (min-width: 768px) {
+.gradient-form {
+  height: 100vh !important;
+}
+}
+@media (min-width: 769px) {
+.gradient-custom-2 {
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+}
+
+.btn-login {
+  color: #E5CC61 !important; 
+  background-color: #302E2F !important; 
+  border: 1px solid #302E2F !important;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-login:hover {
+  color: #302E2F !important; 
+  background-color: #E5CC61 !important; 
+  border: 1px solid #E5CC61 !important; 
+}
+
+.link-register {
+text-decoration: none;
+color: #E5CC61;
+}
+
+.link-register:hover {
+text-decoration: none;
+color: #302E2F; 
+}
+
+.login-form{
+  margin-top: 50px;
+}
+.login-card{
+  background-color: rgb(196, 196, 196) !important;
+}

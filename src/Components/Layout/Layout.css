@@ -1,0 +1,31 @@
+.layout-container {
+    display: flex;
+    min-height: 50vh;
+    flex-direction: column;
+    background-color: #E7E0D6; 
+}
+
+.navbar {
+    width: 280px;
+}
+
+.layout-content {
+    background-color: rgb(231, 224, 214); 
+    transition: margin-left 0.3s;
+}
+
+.with-sidebar {
+    margin-left: 280px; /* Ensure the content does not overlap with the sidebar */
+}
+
+.non-admin-layout .layout-content {
+    width: 100%;
+}
+
+.non-admin-layout .navbar {
+    display: block;
+}
+
+.tourist-loggedout-bg {
+    background-color: #E7E0D6; 
+}

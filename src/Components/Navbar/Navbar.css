@@ -1,0 +1,126 @@
+.navbar-brand,
+.navbar-nav .nav-link,
+.dropdown-menu .dropdown-item {
+    color: #FFFFFF;
+    font-size: 20px !important;
+}
+
+.navbar-brand{
+    font-family: 'Papyrus', sans-serif !important;
+    font-size: 22px !important;
+    font-weight: 900 !important;
+}
+.navbar-toggler-icon {
+    background-color: #E5CC61;
+}
+
+.navbar-toggler {
+    border-color: #E5CC61;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-brand:hover,
+.dropdown-menu .dropdown-item:hover {
+    color: #F9BA22 !important;
+    background-color: transparent;
+}
+
+.nav-item {
+    margin: 0 4px;
+}
+
+.btn-logout {
+    color: #FFFFFF !important;
+    background-color: #302E2F !important;
+    border-color: #302E2F !important;
+    border-radius: 8px !important;
+    padding: 5px 14px !important;
+}
+
+.btn-logout:hover {
+    color: #302E2F !important;
+    background-color: #E5CC61 !important;
+    border-color: #E5CC61 !important;
+    text-decoration: none !important;
+}
+
+.btn-login {
+    color: #E5CC61 !important;
+    background-color: #302E2F !important;
+    border-color: #302E2F !important;
+    border-radius: 8px !important;
+    padding: 5px 14px !important;
+}
+
+.btn-login:hover {
+    color: #302E2F !important;
+    background-color: #E5CC61 !important;
+    border-color: #E5CC61 !important;
+}
+
+.btn-subscribe {
+    color: #E5CC61 !important;
+    border: 2px solid #E5CC61 !important;
+    background-color: transparent !important;
+    border-radius: 8px !important;
+    padding: 5px 14px !important;
+}
+
+.btn-subscribe:hover {
+    color: #302E2F !important;
+    background-color: #E5CC61 !important;
+    border-color: #E5CC61 !important;
+}
+
+.fas {
+    color: #302E2F;
+    font-size: 20px;
+}
+
+.fas:hover {
+    color: #C99842;
+}
+
+.nav-icon {
+    margin-top: 10px;
+    margin-right: 0 !important;
+}
+
+.nav-button {
+    color: #FFFFFF !important;
+    text-transform: capitalize;
+}
+
+.nav-button:hover {
+    background-color: transparent !important;
+    color: #F9BA22 !important;
+}
+
+.explore-menu .MuiMenuItem-root:hover {
+    background-color: transparent !important;
+    color: #F9BA22 !important;
+}
+
+.explore-menu .MuiMenuItem-root {
+    color: #FFFFFF !important;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.MuiDrawer-paper .MuiListItem-root:hover {
+    background-color: #8B4513 !important;
+    color: #FFF;
+}
+
+.MuiListItemIcon-root {
+    color: #FFFFFF !important;
+}
+
+.MuiTypography-body2 {
+    color: #FFFFFF !important;
+}

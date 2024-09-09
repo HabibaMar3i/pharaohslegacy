@@ -1,0 +1,56 @@
+.order-container {
+    padding-top: 2rem;
+}
+
+.order-card {
+    background-color: #cacaca !important; /* Light sand color */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #302e2f;
+}
+.order-container{
+    margin-top: 150px !important;
+}
+.order-card .card-order-title {
+    font-weight: bold;
+    color: #555;
+}
+
+.order-card .card-order-text {
+    color: #555;
+}
+
+.order-accordion .accordion-button {
+    background-color: #F9BA22; /* Egyptian yellow color */
+    color: #FFF;
+    border: none;
+}
+
+.order-accordion .accordion-button:not(.collapsed) {
+    color: #FFF;
+}
+
+.order-accordion .accordion-body {
+    background-color: #FFF;
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #302e2f; /* Terracotta color */
+    border-color: #302e2f;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #4a4849; /* Darker shade of terracotta */
+    border-color: #4a4849;
+}
+
+.loading, .error-message, .no-order {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #302e2f;
+}

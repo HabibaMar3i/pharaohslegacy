@@ -1,0 +1,29 @@
+
+.pricing6 .btn-info-gradiant {
+		background: #5D3F23;
+    background: -webkit-linear-gradient(legacy-direction(to right), #5D3F23 0%, #eadc64 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#5D3F23), to(#eadc64));
+    background: -webkit-linear-gradient(left, #5D3F23 0%, #eadc64 100%);
+    background: -o-linear-gradient(left, #5D3F23 0%, #eadc64 100%);
+    background: linear-gradient(to right, #5D3F23 0%, #eadc64 100%);
+}
+
+
+.pricing6 .btn-md {
+    padding: 15px 45px;
+    font-size: 16px;
+}
+.subsplan{
+  background-color: #cacaca;
+  color: #5D3F23 !important;
+}
+.subsplan h3{
+  background-color: #cacaca;
+  color: #5D3F23 !important;
+}
+.plan-name{
+  color: #5D3F23 !important;
+}
+.pricing6{
+  margin-top: 100px;
+}

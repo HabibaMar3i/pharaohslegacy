@@ -1,0 +1,38 @@
+.admin-homepage-container {
+    padding: 40px;
+}
+
+.admin-card {
+    background-color: #F7F3E9; /* Light sand color */
+    color: #333; /* Dark text for readability */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the text inside the card */
+}
+
+.icon-wrapper {
+    color: #C04000 !important; /* Terracotta color for icons */
+    margin-bottom: 10px;
+}
+
+.admin-card h5, .admin-card h6 {
+    text-align: center;
+}
+
+.admin-card h5 {
+    margin-bottom: 10px;
+}
+
+.admin-card h6 {
+    font-size: 1.2rem;
+}
+
+.admin-card .title {
+    margin-top: 10px;
+}
+
+.admin-card .count {
+    font-weight: bold;
+    color: #333;
+}
+
